@@ -1,0 +1,9 @@
+{
+	"recommendations": [
+		"golang.go",
+		"VisualStudioExptTeam.vscodeintellicode",
+		"streetsidesoftware.code-spell-checker",
+		"biomejs.biome",
+		"YoavBls.pretty-ts-errors"
+	]
+}
