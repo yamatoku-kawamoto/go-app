@@ -6,9 +6,6 @@ import (
 	"goapp/internal/repository"
 	"goapp/internal/repository/database"
 	"goapp/internal/web"
-	"net/http"
-
-	"github.com/gin-gonic/gin"
 )
 
 func init() {
@@ -34,8 +31,8 @@ func initWeb() error {
 
 	Routing()
 	engine.Static("/assets", "views/assets")
-	engine.NoRoute(func(c *gin.Context) {
-		c.FileFromFS(c.Request.URL.Path, http.Dir("views", false))
+	engine.NoRoute(func(c *web.Context) {
+		c.FileFromFS(c.Request.URL.Path, web.Dir("views", false))
 	})
 
 	return nil
