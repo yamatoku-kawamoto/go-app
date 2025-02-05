@@ -5,6 +5,8 @@
         "gonic"
     ],
     "ignorePaths": [
+        "*.drawio",
+        "*.drawio.svg",
         "**/node_modules/**",
         "**/dist/**",
         "**/build/**",
