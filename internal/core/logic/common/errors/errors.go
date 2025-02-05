@@ -1,9 +1,14 @@
 package errors
 
+import "errors"
+
 type extendedError struct {
 	err  error
 	kind Kind
 }
+
+// alias
+var New = errors.New
 
 func Error(err error, kind Kind) error {
 	return &extendedError{
