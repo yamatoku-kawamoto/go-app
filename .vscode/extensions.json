@@ -2,8 +2,10 @@
 	"recommendations": [
 		"golang.go",
 		"VisualStudioExptTeam.vscodeintellicode",
+		"VisualStudioExptTeam.intellicode-api-usage-examples",
 		"streetsidesoftware.code-spell-checker",
 		"biomejs.biome",
-		"YoavBls.pretty-ts-errors"
+		"YoavBls.pretty-ts-errors",
+		"ms-azuretools.vscode-docker"
 	]
 }
