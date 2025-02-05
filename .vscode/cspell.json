@@ -1,0 +1,21 @@
+{
+    "words": [
+        "goapp",
+        "Vite",
+        "gonic"
+    ],
+    "ignorePaths": [
+        "**/node_modules/**",
+        "**/dist/**",
+        "**/build/**",
+        ".vscode/**",
+        "*docker",
+        "go.mod",
+        "go.sum",
+        ".gitignore",
+        "package.json",
+        "pnpm-lock.yaml",
+        "vite.config.ts",
+        "Dockerfile",
+    ]
+}

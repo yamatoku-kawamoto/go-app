@@ -1,0 +1,23 @@
+{
+  "name": "views",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=23.5.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "solid-js": "^1.8.18"
+  },
+  "devDependencies": {
+    "@macropygia/vite-plugin-glob-input": "^0.0.18",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vite-plugin-solid": "^2.10.2"
+  }
+}
