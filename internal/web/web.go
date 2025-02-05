@@ -35,3 +35,8 @@ func New() *Engine {
 		Engine: gin.Default(),
 	}
 }
+
+// gin alias
+var (
+	Dir = gin.Dir
+)
